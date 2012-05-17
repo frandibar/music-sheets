@@ -1,2 +1,3 @@
-music-sheets
-============
+music-sheets is a collection of classical music sheets for my own personal study.
+
+In case of any copyright infringement, please let me know and I'll remove the file dutifully.
