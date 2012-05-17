@@ -1,0 +1,24 @@
+TODO
+
+Las siguientes modificaciones deben aplicarse retroactivamente a las partituras.
+Se debe a que descubri alguna forma mas elegante de hacer algo.
+
+- todas las partituras que tienen piece en la cabecera, reemplazarlas por \tempo
+- hacer mas finita el ancho de las barras verticales de compas
+
+reemplazer este template for score
+#+begin_src LilyPond
+  \score {
+    \new PianoStaff <<
+      \new Staff = "RH" \righthand
+      \new Staff = "LH" \lefthand
+    >>
+    \layout { }
+    \midi { }
+  }
+#+end_src
+
+
+* DONE inventio 10
+* TODO petit etude
+* TODO little preludios

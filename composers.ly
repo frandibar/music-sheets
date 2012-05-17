@@ -1,0 +1,12 @@
+bach = "Johann Sebastian Bach (1685-1750)"
+bartok = "Béla Bartók (1881-1945)"
+burgmuller = "Friederich Bürgmuller (1806-1874)"
+chopin = "Fryderyk Chopin (1810-1849)"
+czerny = "Carl Czerny (1791-1857)"
+kabalesky = "Dmitri Kabalesky (1904-1987)"
+mendelssohn = "Felix Mendelssohn (1809-1847)"
+mozart = "Wolfgang Amadeus Mozart (1756-1791)"
+schubert = "Franz Schubert (1797-1828)"
+schumann = "Robert Schumann (1810-1856)"
+tchaikovsky = "Pyotr Il'ich Tchaikovsky (1840-1893)"
+
