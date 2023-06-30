@@ -1,10 +1,10 @@
-# command for compiling from mutopia
-#flags = -dno-point-and-click -dpaper-size=\"a4\" --verbose
-flags = -dpoint-and-click -dpaper-size=\"a4\" --verbose
+# Option -d (--define-default) is the command-line interface to LilyPond’s Scheme function ly:set-option.
+# https://lilypond.org/doc/v2.23/Documentation/usage.pdf
+#
+# Add point and click to PDF output
+flags=--define-default=point-and-click --define-default=paper-size=\"a4\" --verbose
 
-# the targets are the names of the files
-# this allows executing :mak from vim
+# The targets are the names of the files
 
 %:
-	lilypond $(flags) $@.ly
-
+	lilypond $(flags) --include=src --output=out $@.ly
